@@ -1,0 +1,36 @@
+{
+  "name": "widget-angular-fluig",
+  "version": "1.0.0",
+  "description": "Esse package vai inicializar um projeto em angular com algumas configurações padrões para deploy como widget no fluig",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "create-angular-project": "bin/create-angular-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "Fluig",
+    "Angular",
+    "Projeto",
+    "Nx"
+  ],
+  "author": "Gabriel Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.3.0",
+    "cross-spawn": "^7.0.3",
+    "execa": "^9.3.0",
+    "inquirer": "^9.3.4",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "npx": "^3.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
