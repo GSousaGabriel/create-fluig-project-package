@@ -1,6 +1,6 @@
 {
   "name": "widget-angular-fluig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Esse package vai inicializar um projeto em angular com algumas configurações padrões para deploy como widget no fluig",
   "main": "src/index.js",
   "type": "module",
